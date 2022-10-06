@@ -1,0 +1,94 @@
+li {
+list-style:none !important;
+color:#FFF;
+padding:5px;
+font-size:10px;
+text-decoration:none;
+}
+
+/*modifie couleur pour recherche*/
+nav ul {
+background-color:inverse;
+padding:0;
+margin:0;
+}
+
+.navbar-brand {
+list-style:none !important;
+color:#FFF;
+padding:20px;
+font-size:20px;
+text-decoration:none;
+}
+
+.form-group {
+list-style:none !important;
+color:#FFF;
+padding:3px;
+font-size:10px;
+text-decoration:none;
+}
+ 
+nav ul li {
+list-style: none;
+line-height:10px;
+float:left;
+background-color:inverse;
+}
+ 
+nav ul li a {
+color:#FFF;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+}
+ 
+li a:hover {
+border-bottom:3px #FFF solid;
+}
+nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+ 
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:5px;
+margin-left:-10px;
+}
+ 
+nav ul li:hover ul li {
+float:none;
+}
+
+
+/*se connecter*/
+.fond {
+ background: url('Clothes_hanging_in_store-Design_HD_Wallpaper_1366x768.jpg') no-repeat center center;
+ position: fixed; /* Le fond est fixé en haut de la page */
+ width: 100%; /* Il occupe toute la largeur de l'écran */
+ height: 300px; /* On met ici la même hauteur que le jumbotron */
+ top:0;
+ left:0;
+ z-index: -1;
+}
+
+.fond2 {
+ background: url('Clothes_hanging_in_store-Design_HD_Wallpaper_1366x768.jpg') no-repeat center center;
+ position: fixed; /* Le fond est fixé en haut de la page */
+ width: 100%; /* Il occupe toute la largeur de l'écran */
+ height: 300px; /* On met ici la même hauteur que le jumbotron */
+ top:0;
+ left:0;
+ z-index: -1;
+}
+.jumbotron {
+ margin-bottom: 0px;
+ height: 300px;
+ color: white; /* Le texte sera affiché en blanc */
+ text-shadow: black 0.3em 0.3em 0.3em;
+ background:transparent;
+}
+
+table{
+  border-collapse: collapse;
+}

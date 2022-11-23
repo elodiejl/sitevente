@@ -1,9 +1,9 @@
 <?php
 
 $hostname = "localhost";
-$dbname = "u21807043";
-$username = "u21807043";
-$password = "Y1lYJEju82DX";
+$dbname = "";
+$username = "";
+$password = "";
 
 $dsn = "mysql:host=$hostname;dbname=$dbname;charset=utf8";
 //$dsn = "sqlite:" . __DIR__ . "/../db/users.sqlite";
